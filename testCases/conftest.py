@@ -27,6 +27,7 @@ def pytest_configure(config):
     config._metadata['Tester'] = 'Pavan'
 
 # It is hook for delete/Modify Environment info to HTML Report
+##push
 @pytest.mark.optionalhook
 def pytest_metadata(metadata):
     metadata.pop("JAVA_HOME", None)
